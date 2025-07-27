@@ -18,7 +18,10 @@ your-project/
 │       ├── performance-optimizer.md
 │       ├── seo-specialist.md
 │       ├── security-auditor.md
-│       └── qa-engineer.md
+│       ├── qa-engineer.md
+│       ├── compliance-privacy-officer.md
+│       ├── dataforseo-content-optimizer.md
+│       └── stripe-billing-architect.md
 ```
 
 ## 🚀 Quick Setup
@@ -103,6 +106,29 @@ You are an expert specializing in...
    - Quality assurance
    - E2E, unit, integration testing
 
+### Specialized Compliance & Business Agents:
+
+10. **compliance-privacy-officer.md**
+    - GDPR, COPPA, CCPA compliance
+    - Data privacy requirements
+    - Child protection regulations
+    - Parental consent management
+    - International privacy laws
+
+11. **dataforseo-content-optimizer.md**
+    - SEO optimization with DataForSEO API
+    - Real-time competitor analysis
+    - Keyword research and content gaps
+    - Search intent analysis
+    - Parent/education focused SEO
+
+12. **stripe-billing-architect.md**
+    - Stripe integration and billing
+    - Subscription management
+    - Payment processing and security
+    - Refunds and dispute handling
+    - Revenue optimization
+
 ## 💡 How to Use Agents
 
 ### Automatic Usage:
@@ -111,6 +137,9 @@ Claude will automatically select the appropriate agent based on your request:
 "Find discussions about e-scooters on Reddit"
 "What's the market size for SaaS CRM?"
 "Set up security in Supabase"
+"Implement COPPA-compliant age verification"
+"Optimize this content for parent searches"
+"Set up Stripe subscriptions for families"
 ```
 
 ### Explicit Agent Call:
@@ -118,13 +147,16 @@ Specify a particular agent:
 ```
 "Use reddit-intelligence to analyze reviews"
 "Apply seo-specialist to optimize the homepage"
+"Use compliance-privacy-officer to review our data handling"
+"Apply dataforseo-content-optimizer to this landing page"
+"Use stripe-billing-architect for payment setup"
 ```
 
 ## 🔧 Verify Installation
 
 1. Open terminal in project root
 2. Type command: `/agents`
-3. You should see all 9 agents listed
+3. You should see all 12 agents listed
 
 ## ❓ Frequently Asked Questions
 
@@ -137,6 +169,9 @@ A: Yes, you can adapt descriptions to your needs, but keep key phrases like "MUS
 **Q: How do I add new tools to an agent?**
 A: Use the `/agents` command, select the agent, and edit the tools list.
 
+**Q: Do the new agents require special API keys?**
+A: DataForSEO and Stripe agents may need API keys for full functionality. The compliance agent works with built-in tools.
+
 ## 📚 Additional Resources
 
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
@@ -146,10 +181,11 @@ A: Use the `/agents` command, select the agent, and edit the tools list.
 ## ✅ Installation Checklist
 
 - [ ] Created `.claude/agents/` folder
-- [ ] Copied all 9 agent files
+- [ ] Copied all 12 agent files
 - [ ] Each file has YAML header and System Prompt
 - [ ] Verified via `/agents` command
 - [ ] Tested at least one agent
+- [ ] Set up API keys for DataForSEO and Stripe (if needed)
 
 ## 🎯 Agent Capabilities Summary
 
@@ -166,10 +202,15 @@ A: Use the `/agents` command, select the agent, and edit the tools list.
 - **Security Auditor**: Vulnerability detection, security best practices
 - **QA Engineer**: Automated testing, quality assurance, test coverage
 
+### Specialized Compliance & Business:
+- **Compliance Privacy Officer**: GDPR/COPPA compliance, child data protection, international privacy laws
+- **DataForSEO Content Optimizer**: Advanced SEO with live data, competitor analysis, parent-focused optimization
+- **Stripe Billing Architect**: Complete payment systems, subscriptions, billing operations, revenue optimization
+
 ## 🚦 Getting Started
 
 1. **Install agents** using this guide
 2. **Test with simple requests** to see agents in action
 3. **Explore capabilities** by asking complex questions
 4. **Customize as needed** for your specific use cases
-
+5. **Set up API integrations** for DataForSEO and Stripe agents when needed
